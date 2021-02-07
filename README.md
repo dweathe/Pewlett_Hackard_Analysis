@@ -9,7 +9,7 @@ The purpose of the analysis isto assist an up and coming HR Analyst, Bobby, who 
 This analysis will help 'future proof' PH by helping Bobby build an employee database in SQL through use of my engineering, modeling and analysis skills.
 
 ## Results: 
-* Duplicate entries had to be deleted from the csv file before getting an accurate count.  This was done by writing the following code in SQL:  
+* Duplicate entries had to be deleted from the csv file before getting an accurate count.  This was done by writing the following code in SQL:  ![duplicateentries_code](duplicateentries_code.png)
 
 
 ## Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
