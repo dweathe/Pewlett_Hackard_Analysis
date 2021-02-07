@@ -8,8 +8,13 @@ The purpose of the analysis isto assist an up and coming HR Analyst, Bobby, who 
 
 This analysis will help 'future proof' PH by helping Bobby build an employee database in SQL through use of my engineering, modeling and analysis skills.
 
-## Results: Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
-
+## Results: 
+#  Duplicate entries had to be deleted from the csv file before getting an accurate count.  This was done by writing the following code in SQL:  
+select distinct on (emp_no) emp_no, 
+first_name, last_name, title
+into Unique_retirement_employees
+from Employees_data
+order by emp_no asc
 ## Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
 How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
