@@ -1,6 +1,12 @@
 # Pewlett_Hackard_Analysis
 
-## Overview of the analysis: Explain the purpose of this analysis.
+## Overview of the analysis: 
+The purpose of the analysis isto assist an up and coming HR Analyst, Bobby, who needs to find answers for Pewlett Hackard (PH), regarding two questions:
+
+1.  Who will be retiring in the next few years?
+2.  How many positions will PH need to fill once the empolyees in question 1 retire?
+
+This analysis will help 'future proof' PH by helping Bobby build an employee database in SQL through use of my engineering, modeling and analysis skills.
 
 ## Results: Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
 
